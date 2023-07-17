@@ -1,4 +1,4 @@
 MYcellSplitter.C
 splitCellsFoam.C
 
-EXE = $(FOAM_APPBIN)/splitCellsFoam
+EXE = $(FOAM_USER_APPBIN)/splitCellsFoam
