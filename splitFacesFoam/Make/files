@@ -1,0 +1,3 @@
+splitFacesFoam.C
+
+EXE = $(FOAM_APPBIN)/splitFacesFoam
