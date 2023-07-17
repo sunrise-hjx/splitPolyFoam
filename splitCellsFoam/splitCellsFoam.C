@@ -24,34 +24,6 @@ License
     You should have received a copy of the GNU General Public License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
-Application
-    modifyMesh
-
-Group
-    grpMeshAdvancedUtilities
-
-Description
-    Manipulate mesh elements.
-
-    Actions are:
-        (boundary)points:
-            - move
-
-        (boundary)edges:
-            - split and move introduced point
-
-        (boundary)faces:
-            - split(triangulate) and move introduced point
-
-        edges:
-            - collapse
-
-        cells:
-            - split into polygonal base pyramids around newly introduced mid
-              point
-
-    Is a bit of a loose collection of mesh change drivers.
-
 \*---------------------------------------------------------------------------*/
 
 #include "Time.H"
