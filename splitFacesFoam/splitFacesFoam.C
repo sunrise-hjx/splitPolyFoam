@@ -263,38 +263,3 @@ int main(int argc, char *argv[])
 }
 
 // ************************************************************************* //
-
-// int main(int argc, char *argv[])
-// {
-//     #include "setRootCase.H"
-//     #include "createTime.H"
-//     #include "createPolyMesh.H"
-
-//     pyrMatcher pyr;
-//     tetMatcher tet;
-//     hexMatcher hex;
-//     prismMatcher prism;
-//     cellShape shape;
-//     forAll(mesh.cells(), cellI)
-//     {
-//         bool isHex = hex.matches(mesh, cellI, shape);
-//         bool isTet = tet.matches(mesh, cellI, shape);
-//         bool isPyr = pyr.matches(mesh, cellI, shape);
-//         bool isPrism = prism.matches(mesh, cellI, shape);
-//         if (!isHex && !isTet && !isPyr && !isPrism)
-//         {
-//             Info << "cellI: " << cellI
-//                  << " faceSize: " << mesh.cells()[cellI].size();
-
-//             Info << " faceEdges: (";
-//             forAll(mesh.cells()[cellI], faceI)
-//             {
-//                 Info << " " << mesh.faceEdges()[mesh.cells()[cellI][faceI]].size();
-//             }
-//             Info << " )" << nl;
-//         }
-//     }
-
-//     Info<< "\nEnd\n" << endl;
-//     return 0;
-// }
