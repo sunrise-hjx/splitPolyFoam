@@ -1,0 +1,4 @@
+MYcellSplitter.C
+splitCellsFoam.C
+
+EXE = $(FOAM_APPBIN)/splitCellsFoam
